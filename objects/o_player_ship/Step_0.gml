@@ -40,5 +40,6 @@ var _kbdf = keyboard_check_pressed(vk_space);
 var _mousef = mouse_check_button_pressed(mb_left);
 var _fire_laser = ((_kbdf && !_mousef) || (!_kbdf && _mousef));
 if (_fire_laser) {
-	fire_lasers();
+	create_right_laser();
+	create_left_laser();
 }

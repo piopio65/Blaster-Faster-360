@@ -199,10 +199,10 @@
             }
         },
         {
-            "Key": "69f1e301-bd53-41b3-b1b5-8f950628b0dc",
+            "Key": "68645b44-5384-4ce7-aef8-47e26c5dcd6f",
             "Value": {
-                "id": "80952b8e-0545-4123-914e-133d37b50dfe",
-                "resourcePath": "scripts\\fire_lasers\\fire_lasers.yy",
+                "id": "7865fb95-482f-4a9d-810e-8e7137a2c880",
+                "resourcePath": "scripts\\quit_button\\quit_button.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -308,6 +308,14 @@
                 "id": "512f234e-bd63-4c32-a8ad-2f2694d7c6ff",
                 "resourcePath": "sounds\\a_powerup\\a_powerup.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "a868df31-b08d-41f5-a6fa-b0431024d739",
+            "Value": {
+                "id": "fee7b830-fc93-48c2-b735-544d9832e2a7",
+                "resourcePath": "objects\\o_timer\\o_timer.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -471,11 +479,27 @@
             }
         },
         {
+            "Key": "db3a33e9-46fb-49da-a930-c7e12ef79198",
+            "Value": {
+                "id": "79f331c4-bad0-4784-b043-0a9bde037cee",
+                "resourcePath": "scripts\\start_button\\start_button.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "dfe1750d-afb8-4482-83cd-eff942a7e226",
             "Value": {
                 "id": "7c2eb6d6-eaab-4eec-b2c1-24cb093e255b",
                 "resourcePath": "scripts\\spawn_enemies\\spawn_enemies.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e020d9de-c19a-422d-9874-873f627e634a",
+            "Value": {
+                "id": "3a760acd-63f6-4a9b-9cf3-07581516a738",
+                "resourcePath": "objects\\o_button\\o_button.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -509,18 +533,27 @@
                 "resourcePath": "views\\f4cef6ba-70f7-4cfd-92ff-e7cc887b4b82.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "f8d1f8b8-492c-41b9-8bb8-bcd122d1b33c",
+            "Value": {
+                "id": "916f1029-0019-4fcb-acf9-918b52783906",
+                "resourcePath": "rooms\\r_menu\\r_menu.yy",
+                "resourceType": "GMRoom"
+            }
         }
     ],
     "script_order": [
         "c58eeb04-a6ed-4cc0-a586-cc8fa9f8caf0",
         "41b774c9-2b9a-49ed-b924-c77030bf4236",
         "b12fdf6a-8be6-402f-aa0c-4f572effe8c5",
-        "69f1e301-bd53-41b3-b1b5-8f950628b0dc",
         "d148baaf-2472-40db-8cfb-80a2aee818ad",
         "1505f5eb-f144-480f-8ed4-867d1aca4cd5",
         "2e56b13c-ff6b-40f1-8f62-6cc1030bbe39",
         "17162c6c-3821-438d-a522-122b4b6e87e2",
-        "dfe1750d-afb8-4482-83cd-eff942a7e226"
+        "dfe1750d-afb8-4482-83cd-eff942a7e226",
+        "db3a33e9-46fb-49da-a930-c7e12ef79198",
+        "68645b44-5384-4ce7-aef8-47e26c5dcd6f"
     ],
     "tutorial": ""
 }

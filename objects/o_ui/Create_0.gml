@@ -17,4 +17,6 @@ score = 0;
 global.highscore = score;
 
 // music start
-audio_play_sound(a_music,10,true)
+if (!audio_is_playing(a_music)) {
+	audio_play_sound(a_music,10,true);
+}

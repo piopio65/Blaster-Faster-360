@@ -1,3 +1,8 @@
+// pour remettre les textes 
+// au bon endroit par defaut
+//draw_set_halign(fa_left);
+//draw_set_valign(fa_top);
+
 #region // Draw the player ship armor
 
 var _armor_x = 8;
