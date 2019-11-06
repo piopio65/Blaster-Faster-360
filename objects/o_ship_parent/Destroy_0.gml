@@ -1,5 +1,6 @@
 instance_create_layer(x, y, "Effects", o_explosion_flash);
-
+// desactivation de l'alarme de collision
+alarm[1] = -1;
 if (object_index != o_player_ship) {
 	score += max_armor;
 }

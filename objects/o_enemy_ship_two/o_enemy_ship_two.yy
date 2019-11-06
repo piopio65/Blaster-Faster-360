@@ -33,6 +33,16 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "8acc2ca1-5c96-4797-93cf-1d3d5666a6f3"
+        },
+        {
+            "id": "8cade96f-fc05-4ef1-943a-dc98b12f42ae",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "9437de68-9d6c-4747-ac99-33ff594339cc",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "8acc2ca1-5c96-4797-93cf-1d3d5666a6f3"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,7 +53,7 @@
             "mvc": "1.0",
             "objectId": "c7d79b9c-b8ad-4d95-80ee-6e8fdfc6588c",
             "propertyId": "f0f1101d-ff27-4c92-a882-3685907e7040",
-            "value": "3"
+            "value": "2"
         },
         {
             "id": "ee7943de-ff8a-4f42-b7f4-2a37ca095982",
@@ -51,7 +61,7 @@
             "mvc": "1.0",
             "objectId": "c7d79b9c-b8ad-4d95-80ee-6e8fdfc6588c",
             "propertyId": "0a95b3e0-2d09-4a64-af45-1dbc297e248b",
-            "value": "3"
+            "value": "2"
         }
     ],
     "parentObjectId": "c7d79b9c-b8ad-4d95-80ee-6e8fdfc6588c",
@@ -93,9 +103,23 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "60",
+            "value": "irandom_range(600,900)",
             "varName": "fire_rate",
-            "varType": 1
+            "varType": 4
+        },
+        {
+            "id": "4156386c-a2d8-49f1-b44f-5c9a4af743fa",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "is_colliding",
+            "varType": 3
         }
     ],
     "solid": false,

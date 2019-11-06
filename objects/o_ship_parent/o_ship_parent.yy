@@ -33,6 +33,16 @@
             "enumb": 0,
             "eventtype": 4,
             "m_owner": "c7d79b9c-b8ad-4d95-80ee-6e8fdfc6588c"
+        },
+        {
+            "id": "2067118f-ca1b-47e2-902c-1812793e4f39",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 2,
+            "m_owner": "c7d79b9c-b8ad-4d95-80ee-6e8fdfc6588c"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -107,6 +117,20 @@
             "value": "0.1",
             "varName": "acceleration",
             "varType": 0
+        },
+        {
+            "id": "cda70f3d-a1fb-4dfd-a692-5a8f09fe4a5d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "can_collide",
+            "varType": 3
         }
     ],
     "solid": false,
