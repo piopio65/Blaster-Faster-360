@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "0b87c7ab-0454-4f20-9590-b60fbbbfb258",
+            "Value": {
+                "id": "b5a7ef73-23f5-45bf-91af-921ace69e5d3",
+                "resourcePath": "scripts\\draw_all_enemies_health\\draw_all_enemies_health.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0e53f62e-062c-49eb-b81b-180044ba877a",
             "Value": {
                 "id": "cafaec8d-cba5-4da8-9fd0-fba70d0b9910",
@@ -570,7 +578,8 @@
         "dfe1750d-afb8-4482-83cd-eff942a7e226",
         "db3a33e9-46fb-49da-a930-c7e12ef79198",
         "68645b44-5384-4ce7-aef8-47e26c5dcd6f",
-        "b2d34817-8662-4dc1-a983-fd808ad3f3b4"
+        "b2d34817-8662-4dc1-a983-fd808ad3f3b4",
+        "0b87c7ab-0454-4f20-9590-b60fbbbfb258"
     ],
     "tutorial": ""
 }
