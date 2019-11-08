@@ -63,14 +63,6 @@
             }
         },
         {
-            "Key": "0b87c7ab-0454-4f20-9590-b60fbbbfb258",
-            "Value": {
-                "id": "b5a7ef73-23f5-45bf-91af-921ace69e5d3",
-                "resourcePath": "scripts\\draw_all_enemies_health\\draw_all_enemies_health.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "0e53f62e-062c-49eb-b81b-180044ba877a",
             "Value": {
                 "id": "cafaec8d-cba5-4da8-9fd0-fba70d0b9910",
@@ -156,6 +148,14 @@
                 "id": "d38bc83f-8337-4e44-a0ff-9998c6d882b0",
                 "resourcePath": "scripts\\create_right_laser\\create_right_laser.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "43207a79-4bd6-441c-9452-5c55e07a5e02",
+            "Value": {
+                "id": "d784a115-cb21-4eb6-8096-c764949daedb",
+                "resourcePath": "sprites\\s_transparent\\s_transparent.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -463,6 +463,14 @@
             }
         },
         {
+            "Key": "d2fa68e0-bd3e-40d8-b8c8-96d198ecf36c",
+            "Value": {
+                "id": "d3395295-4aca-41fc-98e8-df8cd52c3ffd",
+                "resourcePath": "objects\\o_enemies_health\\o_enemies_health.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d426803f-5273-4d6f-b54d-96014178c3f1",
             "Value": {
                 "id": "747b717b-5ea7-4cd0-bd95-17d5e3172131",
@@ -519,6 +527,14 @@
             }
         },
         {
+            "Key": "e6e6daea-ab38-4680-aee4-3ace389aa181",
+            "Value": {
+                "id": "514edd9f-8b24-4f2b-8a29-0caa4efd0820",
+                "resourcePath": "notes\\rev_08112019.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "eb83f138-1981-4013-b2cb-e39755ec04f5",
             "Value": {
                 "id": "66491214-d2dc-4dd9-823e-e0c6f1bc2d1e",
@@ -539,14 +555,6 @@
             "Value": {
                 "id": "a3cabd53-295b-4825-81e9-eef2886d3389",
                 "resourcePath": "sprites\\s_laser\\s_laser.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "f271ae30-0d68-4d6a-ae74-e57657ee4ac9",
-            "Value": {
-                "id": "f4ee7ad8-7baf-422f-828e-67ea35b5403a",
-                "resourcePath": "sprites\\sprite13\\sprite13.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -578,8 +586,7 @@
         "dfe1750d-afb8-4482-83cd-eff942a7e226",
         "db3a33e9-46fb-49da-a930-c7e12ef79198",
         "68645b44-5384-4ce7-aef8-47e26c5dcd6f",
-        "b2d34817-8662-4dc1-a983-fd808ad3f3b4",
-        "0b87c7ab-0454-4f20-9590-b60fbbbfb258"
+        "b2d34817-8662-4dc1-a983-fd808ad3f3b4"
     ],
     "tutorial": ""
 }

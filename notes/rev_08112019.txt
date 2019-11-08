@@ -1,0 +1,5 @@
+08/11 -----------------------
+Blaster Faster de Dev pour tester des idées intéressantes
+
+Ajout de barres de santé sur les ennemis (legerement transparentes)
+Ajout d'une barre de santé perso pour le joueur

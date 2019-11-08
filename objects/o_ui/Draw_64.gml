@@ -19,14 +19,14 @@ if (_player_ship != noone)
 }
 #endregion
 
-
+draw_set_alpha(0.8);
 #region  // Draw the player armor
 //draw_sprite(s_armor, _armor_amount, _armor_x, _armor_y);
 	draw_sprite(s_armor, 0, _armor_x, _armor_y);
 	draw_healthbar(_armor_x + 3, _armor_y + 3, _armor_x + 43 , _armor_y + 12, (_armor / _max_armor) * 100,c_black,c_red,c_lime,0,false,false);
 #endregion
 
-
+draw_set_alpha(0.6);
 #region  // Draw the player score
 	draw_set_halign(fa_right);
 	var _score_sprite_width = sprite_get_width(s_score)
@@ -36,3 +36,4 @@ if (_player_ship != noone)
 	draw_text(_score_x + _score_sprite_width - 3,_score_y, score);
 	draw_set_halign(fa_left);
 #endregion
+draw_set_alpha(1);
