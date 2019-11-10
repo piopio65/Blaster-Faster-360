@@ -4,7 +4,9 @@ if (object_index != o_player_ship) {
 	score += max_armor;
 	if score > global.highscore {
 		global.highscore = score;
-		show_debug_message(string(global.highscore));
+		ini_open("save.ini");
+		ini_write_real("Score","HighScore",score);
+		//show_debug_message(string(global.highscore));
 	}
 	
 	
