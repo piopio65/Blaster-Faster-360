@@ -76,7 +76,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "irandom_range(8,15)",
+            "value": "irandom_range(25,35)",
             "varName": "duration",
             "varType": 1
         }

@@ -17,16 +17,18 @@ if (_player_ship != noone)
 draw_sprite(s_armor, _armor_amount, _armor_x, _armor_y);
 
 #endregion
-#region  // Draw the player score
+#region  // In Game Draw the player score
+//show_debug_message("room width : " + string(room_width) + "   room height : " + string(room_height));
 draw_set_halign(fa_right);
 var _score_sprite_width = sprite_get_width(s_score)
-var _score_x = room_width - _score_sprite_width - 8;
+var _score_x = global.wx - _score_sprite_width - 8;
 var _score_y = 8;
 draw_sprite(s_score,0,_score_x,_score_y);
 draw_text(_score_x + _score_sprite_width - 3,_score_y, score);
 draw_set_halign(fa_left);
+
 #endregion
-} else {
+} else { // Menu Intro
 	#region // Draw Hi Score
 		var _score_x = room_width - 8;
 		var _score_y = 8;
